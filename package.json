@@ -1,0 +1,25 @@
+{
+  "name": "@whcg/whcg-footer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es6.js",
+  "scripts": {
+    "build": "rollup -c"
+ },
+  "files": [
+    "dist",
+    "theme"
+ ],
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whcgx/whcg-footer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whcgx/whcg-footer/issues"
+  },
+  "homepage": "https://github.com/whcgx/whcg-footer#readme"
+}
