@@ -6,12 +6,11 @@
   "module": "dist/index.es6.js",
   "scripts": {
     "build": "rollup -c"
- },
+  },
   "files": [
     "dist",
     "theme"
- ],
-
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/whcgx/whcg-footer.git"
@@ -21,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/whcgx/whcg-footer/issues"
   },
-  "homepage": "https://github.com/whcgx/whcg-footer#readme"
+  "homepage": "https://github.com/whcgx/whcg-footer#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.5",
+    "@whcg/whcg-general-styles": "^1.2.0",
+    "@whcg/whcg-search-box": "^1.0.0"
+  }
 }
